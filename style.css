@@ -24,3 +24,73 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /*PAGE-SPECIFIC*/
+* {
+  border: 1px solid;
+}
+
+body {
+  display: flex;
+  height: 99vh;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  flex: 0 0 430px;
+}
+
+.background-image {
+  position: absolute;
+  height: 100%;
+  max-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.logo-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  top: 8rem;
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container {
+  height: 30vh;
+}
+
+.sales-pitch-container,
+.button-container {
+  height: 35vh;
+  background-color: #f9fafb;
+}
+
+.sales-pitch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.form-container {
+  background-color: white;
+}
+
+.sales-pitch {
+  margin: 50px 40px;
+}
