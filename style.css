@@ -31,6 +31,86 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url(fonts/Norse-Bold.otf);
 }
 
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.graduate-regular {
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 /*PAGE-SPECIFIC*/
 * {
 }
@@ -39,6 +119,7 @@ body {
   display: flex;
   height: 100vh;
   background-color: #cad3e6;
+  font-family: "Roboto";
 }
 
 .background-container {
@@ -138,7 +219,7 @@ body {
 }
 
 .form-inputs div {
-  margin: 5px 35px;
+  margin: 10px 35px;
 }
 
 #sign-up-form legend {
@@ -161,6 +242,13 @@ body {
 .label-input input {
   border: 1px solid lightgrey;
   border-radius: 3px;
+}
+
+.label-input label {
+  font-size: 10px;
+  color: #51545c;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .label-input input:focus {
