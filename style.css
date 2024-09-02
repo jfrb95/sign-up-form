@@ -154,3 +154,13 @@ body {
   border-radius: 3px;
   box-shadow: 1px 1px 4px #8d94a1;
 }
+
+.log-in-text a {
+  color: #f26215;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
