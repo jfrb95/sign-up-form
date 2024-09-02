@@ -31,7 +31,7 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   display: flex;
   height: 100vh;
-  background-color: #f9fafb;
+  background-color: #cad3e6;
 }
 
 .background-container {
@@ -85,10 +85,6 @@ body {
   justify-content: center;
 }
 
-.form-container {
-  height: 30vh;
-}
-
 .sales-pitch-container,
 .button-container {
   height: 35vh;
@@ -101,8 +97,10 @@ body {
 }
 
 .form-container {
-  background-color: white;
-  box-shadow: 0px 10px 5px -10px grey;
+  height: 30vh;
+  background-color: #fef4ee;
+  box-shadow: 5px 2px 5px 1px grey;
+  width: 100%;
 }
 
 .sales-pitch {
@@ -115,6 +113,7 @@ body {
   border: none;
   padding-left: 5px;
   padding-top: 5px;
+  width: 600px;
 }
 
 .label-input {
@@ -129,4 +128,21 @@ body {
 #sign-up-form legend {
   margin-top: 12px;
   margin-left: 40px;
+}
+
+.button-container button {
+  padding: 8px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f26215;
+  margin: 25px 40px;
+}
+
+.button-container p {
+  margin-left: 40px;
+}
+
+.label-input input {
+  border: 1px solid grey;
+  border-radius: 3px;
 }
