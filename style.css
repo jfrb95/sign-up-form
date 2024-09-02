@@ -230,7 +230,9 @@ body {
 #sign-up-form legend {
   margin-top: 12px;
   margin-left: 40px;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #282a2e;
 }
 
 .button-container button {
@@ -239,10 +241,12 @@ body {
   border-radius: 5px;
   background-color: #f26215;
   margin: 25px 40px;
+  color: white;
 }
 
 .button-container p {
   margin-left: 40px;
+  color: #282a2e;
 }
 
 .label-input input {
@@ -270,10 +274,6 @@ body {
   font-weight: bold;
 }
 
-.button-container button {
-  color: white;
-}
-
 .button-container button:hover {
   background-color: #79310b;
 }
@@ -286,10 +286,20 @@ body {
   font-size: 15px;
 }
 
+input {
+  font-size: 15px;
+}
+
 input[type="password"]:invalid:focus {
   border: 1px solid red;
 }
 
 .label-input input:valid {
   border-color: green;
+}
+
+input[type="password"]:invalid:focus + span:after {
+  content: "Password must be 8 characters long";
+  font-size: 10px;
+  color: red;
 }
