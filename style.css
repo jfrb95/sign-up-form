@@ -230,6 +230,7 @@ body {
 #sign-up-form legend {
   margin-top: 12px;
   margin-left: 40px;
+  font-size: 15px;
 }
 
 .button-container button {
@@ -285,6 +286,10 @@ body {
   font-size: 15px;
 }
 
-input[type="password"]:invalid {
+input[type="password"]:invalid:focus {
   border: 1px solid red;
+}
+
+.label-input input:valid {
+  border-color: green;
 }
