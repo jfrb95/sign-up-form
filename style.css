@@ -83,6 +83,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .sales-pitch-container,
@@ -143,6 +144,13 @@ body {
 }
 
 .label-input input {
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   border-radius: 3px;
+}
+
+.label-input input:focus {
+  outline: none;
+  border: 1px solid #8d94a1;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px #8d94a1;
 }
