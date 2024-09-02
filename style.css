@@ -24,6 +24,13 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/*FONT*/
+
+@font-face {
+  font-family: norse-bold;
+  src: url(fonts/Norse-Bold.otf);
+}
+
 /*PAGE-SPECIFIC*/
 * {
 }
@@ -72,12 +79,20 @@ body {
   color: white;
   top: 8rem;
   text-align: center;
+  padding: 5px 0px;
 }
 
 .logo {
-  height: 100px;
+  height: 130px;
   width: auto;
 }
+
+
+.logo-text {
+  font-family: norse-bold;
+  font-size: 90px;
+}
+
 
 .form-section {
   display: flex;
